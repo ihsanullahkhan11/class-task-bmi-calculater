@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+
+ 
+.container{
+    background-color: bisque;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 2px solid brown;
+    box-shadow: 3px 10px 10px 1px;
+}
+ #hight{
+
+    width: 50%;
+    height: 20px;
+
+}
+
+#weight{
+    width:  50%;
+    height: 20px;
+    
+}
+
+#button{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(152, 211, 152);
+    
+}
+h1{
+    font-size: 1.5em;
+    color: rgb(100, 81, 81);
+}
